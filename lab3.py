@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import mglearn
 import numpy as np
 
+#Lab 3. Classification and regression
+
 X, y = mglearn.datasets.make_forge()
 mglearn.discrete_scatter(X[:, 0], X[:, 1], y)
 plt.legend(["Класс 0", "Класс 1"], loc=4)
